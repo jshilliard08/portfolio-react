@@ -5,14 +5,14 @@ import ProfilePic from "../assets/ProfilePic.jpg"
 function AboutCard() {
     return (
         <div className="about-container">
-            <h5>About Me</h5>
+            <h5 class="card-title text-center fw-bolder">About Me</h5>
 
-            <img src={ProfilePic} alt="profile-photo" className="profile float-left"></img>
+            <img src={ProfilePic} alt="aboutcard-profile" className="profile float-left"></img>
             <div>
 
                 <div className="mt-3">
 
-                    <p> Hello! Welcome! My name is Josepine Hilliard. Feel free to call me Jodie.If my friends could describe me, they would say I’m resourceful. I
+                    <p> Hello! Welcome! My name is Josepine Hilliard. Feel free to call me Jodie. If my friends could describe me, they would say I’m resourceful. I
                 am very good at finding things, tangible and intangible. Throughout my work history, I had the pleasure of using many different applications 
                 and software. I began to think about their inner workings. So I enrolled in a Rutgers coding boot camp. It taught me a lot about coding and
                 programming and I created a few functional applications. I am a hard-working, self-motivated and ambitious individual with proficiency in HTML, NodeJS, React,

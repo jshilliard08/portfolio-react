@@ -15,10 +15,10 @@ function PortfolioCard(props) {
                         <strong>Name:</strong> {props.name}
                     </li>
                     <li>
-                        <strong>Project:</strong> {props.project}
+                        <strong>Project:</strong> {props.github}
                     </li>
                     <li>
-                        <strong>Demo:</strong> {props.location}
+                        <strong>Demo:</strong> {props.deploy}
                     </li>
 
                 </ul>

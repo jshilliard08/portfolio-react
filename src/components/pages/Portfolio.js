@@ -15,29 +15,29 @@ function Portfolio() {
           <PortfolioCard
             name={work[0].name}
             image={work[0].image}
-            project={work[0].project}
-            location={work[0].location}
+            github={work[0].github}
+            deploy={work[0].deploy}
           />
           <PortfolioCard
             name={work[1].name}
             image={work[1].image}
-            project={work[1].project}
-            location={work[1].location}
+            github={work[1].github}
+            deploy={work[1].deploy}
           />
         </div>
         <div className="row">
           <PortfolioCard
             name={work[2].name}
             image={work[2].image}
-            project={work[2].project}
-            location={work[2].location}
+            github={work[2].github}
+            deploy={work[2].deploy}
           />
 
           <PortfolioCard
             name={work[3].name}
             image={work[3].image}
-            project={work[3].project}
-            location={work[3].location}
+            github={work[3].github}
+            deploy={work[3].deploy}
           />
         </div>
 
@@ -46,15 +46,15 @@ function Portfolio() {
           <PortfolioCard
             name={work[4].name}
             image={work[4].image}
-            project={work[4].project}
-            location={work[4].location}
+            github={work[4].github}
+            deploy={work[4].deploy}
           />
 
           <PortfolioCard
             name={work[5].name}
             image={work[5].image}
-            project={work[5].project}
-            location={work[5].location}
+            github={work[5].github}
+            deploy={work[5].deploy}
           />
 
         </div>
@@ -66,4 +66,4 @@ function Portfolio() {
   );
 }
 
-export default Blog;
+export default Portfolio;
