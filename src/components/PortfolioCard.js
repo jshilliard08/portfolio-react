@@ -3,7 +3,7 @@ import Work from "../work.json";
 
 
 
-function PortfolioCard(Work) {
+function PortfolioCard(props) {
     return (
         <div className="card port-card">
             <div className="img-container">

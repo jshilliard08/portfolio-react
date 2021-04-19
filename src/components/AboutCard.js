@@ -19,7 +19,9 @@ function AboutCard() {
                 JavaScript, MySQL, Bootstrap, and CSS, as well as ability to communicate effectively in a team setting, and possessing a strong willingness to learn about 
                 entrepreneurship and business seeks to apply for an entry level Full Stack Developer position.</p>
 
-                    <p>
+                    
+                
+                <p>
                         I am interested in learning about new opportunities and can
                         be reached
                         through this portfolio, by

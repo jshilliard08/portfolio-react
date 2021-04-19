@@ -3,7 +3,7 @@ import PortfolioCard from "../PortfolioCard";
 import work from "../../work.json";
 
 
-function Portfolio(props) {
+function Portfolio() {
   return (
     <div>
       <div className="container portfolio-container">
@@ -45,13 +45,6 @@ function Portfolio(props) {
             image={work[4].image}
             github={work[4].github}
             deploy={work[4].deploy}
-          />
-
-          <PortfolioCard
-            name={work[5].name}
-            image={work[5].image}
-            github={work[5].github}
-            deploy={work[5].deploy}
           />
 
         </div>
