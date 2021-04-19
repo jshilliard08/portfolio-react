@@ -1,8 +1,9 @@
 import React from "react";
+import Work from "../work.json";
 
 
 
-function PortfolioCard(props) {
+function PortfolioCard(Work) {
     return (
         <div className="card port-card">
             <div className="img-container">
@@ -25,7 +26,8 @@ function PortfolioCard(props) {
             </div>
 
         </div>
+        
     );
-}
+};
 
 export default PortfolioCard;

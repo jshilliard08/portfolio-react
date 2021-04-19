@@ -1,16 +1,13 @@
 import React from "react";
 import PortfolioCard from "../PortfolioCard";
-import work from "../../assets/work.json";
+import work from "../../work.json";
 
 
-function Portfolio() {
+function Portfolio(props) {
   return (
     <div>
-
-
-
       <div className="container portfolio-container">
-        <h1 className="title">work List</h1>
+        <h1 className="title">Work List</h1>
         <div className="row">
           <PortfolioCard
             name={work[0].name}
